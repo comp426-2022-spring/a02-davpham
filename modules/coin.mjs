@@ -15,7 +15,7 @@
  */
 
 export function coinFlip() {
-    let num = Math.floor(Math.random() * 2)
+    const num = Math.floor(Math.random() * 2)
     
     if (num == 0){
       return 'heads'
