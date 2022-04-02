@@ -78,7 +78,7 @@ export function countFlips(array) {
       }
     }
 
-    return { 'tails': tails, 'heads': heads }
+    return { 'heads': heads, 'tails': tails }
 }
 
 /** Flip a coin!
